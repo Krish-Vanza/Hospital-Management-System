@@ -3,9 +3,9 @@
 
 ### 👨‍💻 Project Members
 This SQL project was completed by the following members with equal efforts:
-- **Krish Vanza** (GitHub: @Krish-Vanza) 
-- **Shubh Gupta** (GitHub: @g9shubh)  
-- **Harshit Yadav**  (GitHub: @HarshetYadav) 
+- [**Krish Vanza**](https://github.com/Krish-Vanza)
+- [**Shubh Gupta**](https://github.com/g9shubh)
+- [**Harshit Yadav**](https://github.com/HarshetYadav)
 
 ---
 
