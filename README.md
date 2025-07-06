@@ -63,7 +63,7 @@ Useful reports:
 - Removed partial dependencies using single-column primary keys  
 
 ### ✅ Third Normal Form (3NF):
-- Removed transitive dependencies (e.g., moved `DepartmentName` to its own table)
+- Removed transitive dependencies
 
 ---
 
