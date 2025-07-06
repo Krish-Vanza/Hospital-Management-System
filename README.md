@@ -9,9 +9,10 @@ This SQL project was completed by the following members with equal efforts:
 # 🏥 Healthcare Database System
 
 ### 👨‍💻 Project Members
-- **Krish Vanza** (23CSB0B62)  
-- **Shubh Gupta** (23CSB0F33)  
-- **Harshit Yadav** (23CSB0B12)  
+This SQL project was completed by the following members with equal efforts:
+- **Krish Vanza** (GitHub: @Krish-Vanza) 
+- **Shubh Gupta** (GitHub: @g9shubh)  
+- **Harshit Yadav**  (GitHub: @HarshetYadav) 
 
 ---
 
@@ -21,23 +22,7 @@ This project implements a centralized **Healthcare Database System** using SQL t
 
 ---
 
-## 🎯 Problem Statement
 
-Hospitals face challenges handling patient, doctor, and treatment data manually, which can lead to inefficiencies. This database ensures **real-time**, **accurate**, and **secure** access to healthcare data, supporting accountability through triggers and role-based updates.
-
----
-
-## ✅ Assumptions
-
-- A patient may have multiple appointments and medical records.
-- Doctors can treat multiple patients and issue multiple prescriptions.
-- Only current hospital staff (listed in the `Doctors` table) can update records.
-- Roles like admin, clerk, nurse are managed externally and passed via `UpdatedBy`.
-- Concurrency is assumed to be handled at the application level.
-- Each prescription is linked to one medication per medical record.
-- Departments are fixed and centrally managed.
-
----
 
 ## 🗂️ Database Schema
 
@@ -53,23 +38,6 @@ Hospitals face challenges handling patient, doctor, and treatment data manually,
 
 ---
 
-## ⚙️ Triggers
-
-- `trg_check_dob`: Prevents future DOBs  
-- `trg_check_appointment_date`: Disallows past appointments  
-- `trg_patients_usercheck`: Auto-updates `LastUpdated` and `UpdatedBy` fields  
-
----
-
-## 🧪 Sample Data
-
-Initial inserts include:
-- 5 departments
-- 5 doctors
-- 6 patients
-- Sample entries for appointments, medical records, prescriptions, and billing
-
----
 
 ## 🔄 CRUD Operations
 
@@ -111,7 +79,6 @@ Useful reports:
 - **Oracle SQL**
 - **SQL Developer** (or any RDBMS interface)
 - **PowerPoint** (for ER Diagram)
-- Optional front-end app to simulate real users
 
 ---
 
@@ -131,12 +98,3 @@ A visual ER diagram is included in the file:
 
 ---
 
-## 📬 Contact
-
-Feel free to reach out for questions or collaboration:
-
-- Krish Vanza  
-- Shubh Gupta  
-- Harshit Yadav  
-
----
